@@ -8,5 +8,5 @@ OSX, Spring Tool suite4, JAVA 8
 
 # 목차 
 
-1. 2019-09-03 : SpringBoot 처음 사용할 때 + Lombok 설명
-2. 2019-09-04 : 제작중
+- 2019-09-03 : SpringBoot 처음 사용할 때 + Lombok 설명
+- 2019-09-04 : 제작중
