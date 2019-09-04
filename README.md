@@ -8,6 +8,6 @@ OSX, Spring Tool suite4, JAVA 8
 
 # 목차 
 
-- 2019-09-03 : SpringBoot 처음 사용할 때 + Lombok 설명
-- 2019-09-04 : Spring Data JPA 
+- [2019-09-03](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-03.md) : SpringBoot 처음 사용할 때 + Lombok 설명
+- [019-09-04](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-04.md) : Spring Data JPA 
 - 2019-09-05 : 제작중 ..
