@@ -12,6 +12,7 @@ OSX(Mac OS Mojave), Spring Tool suite4, JAVA 8
 - [2019-09-04](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-04.md) : Spring Data JPA 
 - [2019-09-05](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-05.md) : Spring Data JPA를 이용한 쿼리 활용
 - [2019-09-05-querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-05-querydsl.md) : Querydsl 설치법 및 사용법 
+- [2019-09-06](#) : JPA 연관관계 처리
 
 # Contact
 
