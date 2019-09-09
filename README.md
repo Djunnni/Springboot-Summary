@@ -17,9 +17,10 @@ OSX(Mac OS Mojave), Spring Tool suite4, JAVA 8
 - [2019-09-09](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-09.md) : 제작중 ... 
 
 
-** 부록
+## 부록 
 - [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/querydsl.md) : Querydsl 설치법 및 사용법 
 - [Mysql_error_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
+
 # Contact
 
 Summary를 만드는데 여러분의 의견을 참고하고 싶습니다. 더 좋은 Summary를 만들기 위해 많은 연락 부탁드립니다.
