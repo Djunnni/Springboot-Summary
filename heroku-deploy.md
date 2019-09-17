@@ -119,6 +119,17 @@ heroku 결과
 
 이제, utf8mb4로 변경을 해보자!!
 
+1. 일단 임시방편으로 SET 명령어로 각각을 utf8mb4로 설정했었다. => 결과 : 실패 (입력시 ???)
+2. 프로젝트 내에 utf에 대한 설정을 확인 => 결과 : 이상없었음
+3. application.properties -> spring.datasource.url 에 DB 뒤에 파라미터 추가 입력 =>  결과 : 실패 (입력시 ???)
+   - 입력내용 
+~~~
+(reconnect=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul&useSSL=false&useUnicode=true&characterEncoding=UTF-8)
+~~~
+4. spring.datasource.tomcat.connection-properties=useUnicode=true;characterEncoding=utf-8; 추가 => 결과 : 성공 (한글 입출력 정상)
+
+* 아무래도 connection-properties를 따로 지정해주어야 할 것 같다. 
+* Database 의 타임존은 UTC로 되어있으나 heroku localtime 만 바꾸면 자동으로 잡아줌 
 
 ### heroku local time 변경하기
 
