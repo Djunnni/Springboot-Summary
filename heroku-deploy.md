@@ -14,12 +14,12 @@
    아이디와 비밀번호를 확인할 수 있음
 
    * JPA 와 사용법
-   ~~~
+~~~
    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
   spring.datasource.url = jdbc:mysql:<url + DB name 넣기>?reconnect=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul&useSSL=false&useUnicode=true&characterEncoding=UTF-8
   spring.datasource.username=<id>
   spring.datasource.password=<passwd>
-   ~~~
+~~~
  
 2. Heroku Deploy 설정법
 
@@ -42,22 +42,22 @@
    그래서 사람들이 찾아보션 nano 쓰라고 하는데 본인은 vi, vim이 너무 편해 이 문제를 해결해보고 싶었다.
 
    자신의 콘솔
-   ~~~
-   1. heroku plugins:install @jasonheecs/heroku-vim -app {앱 이름}
-   2. heroku vim -a {앱 이름}
-   ~~~
+~~~
+1. heroku plugins:install @jasonheecs/heroku-vim -app {앱 이름}
+2. heroku vim -a {앱 이름}
+~~~
    이렇게 진행하면 바로 될 때도 있고 안될때도 있다.
 
-   ~~~
-      mkdir ~/vim
-           cd ~/vim
-           curl 'https://s3.amazonaws.com/bengoa/vim-static.tar.gz' | tar -xz
-           export VIMRUNTIME="$HOME/vim/runtime"
-           export PATH="$HOME/vim:$PATH"
-           cd -
-           bash
-          on ⬢ {앱이름}... up, run.3055 (Free)
-   ~~~
+~~~
+mkdir ~/vim
+cd ~/vim
+curl 'https://s3.amazonaws.com/bengoa/vim-static.tar.gz' | tar -xz
+export VIMRUNTIME="$HOME/vim/runtime"
+export PATH="$HOME/vim:$PATH"
+cd -
+bash
+on ⬢ {앱이름}... up, run.3055 (Free)
+~~~
 
    1Dyno 만 지원하기 때문에 console에 접속은 1개만 가능하다.
 
