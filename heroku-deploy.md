@@ -32,6 +32,7 @@ heroku war:deploy {war 파일이름}.war  --app {heroku에 생성된 앱 이름}
 이렇게 진행하면 자동으로 deploy가 되어 실행가능
 
 ** 혹시 github으로 push해서 사용하신분은 연락좀 주세요. 하다가 오류가 발생했었습니다.
+
    && 같이 이 문제를 해결해보실 분도 연락주세요 &&
    
 3. Heroku vim 설치 및 사용법
