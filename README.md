@@ -19,6 +19,7 @@ OSX(Mac OS Mojave), Spring Tool suite4, JAVA 8
 ### 부록 
 - [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/querydsl.md) : Querydsl 설치법 및 사용법 
 - [Mysql_error_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
+- [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법(CSRF)
 
 # Contact
 
