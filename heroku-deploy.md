@@ -119,3 +119,9 @@ heroku 결과
 
 이제, utf8mb4로 변경을 해보자!!
 
+5. heroku local time 변경하기
+
+처음에 UTC 로 설정되어있기 때문에 deploy할 때, KST로 변경시켜주어야 한다.
+~~~
+heroku config:add TZ="Asia/Seoul" --app [APPNAME]
+~~~
