@@ -6,10 +6,11 @@
    - clearDB를 설치한 이후에 계정에 대한 정보를 얻으려면 아래와 같이 수행
 
    1) 자신의 콘솔에서는 heroku에 대한 설치후 사용가능 
-   ~~~
-   heroku config --app <App 이름>
+~~~
+heroku config --app <App 이름>
+~~~
    => clearDB에 대한 url , name , passwd 확인가능
-   ~~~
+   
    2) heroku Resources에 생성된 clearDB 옆에 설정버튼을 클릭
    아이디와 비밀번호를 확인할 수 있음
 
@@ -117,3 +118,4 @@ heroku 결과
 ~~~
 
 이제, utf8mb4로 변경을 해보자!!
+
