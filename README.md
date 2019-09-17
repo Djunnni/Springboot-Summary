@@ -20,7 +20,7 @@ OSX(Mac OS Mojave), Spring Tool suite4, JAVA 8
 - [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/querydsl.md) : Querydsl 설치법 및 사용법 
 - [Mysql_error_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
 - [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법(CSRF)
-
+- [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/heroku-deploy.md) : SpringBoot - Heroku deploy 
 # Contact
 
 Summary를 만드는데 여러분의 의견을 참고하고 싶습니다. 더 좋은 Summary를 만들기 위해 많은 연락 부탁드립니다.
