@@ -1,6 +1,6 @@
 ## Heroku - SpringBoot Deploy 하는 방법
 
-1. clearDB 생성하기
+### clearDB 생성하기
 
    - heroku에 가입하고 Resources 에서 clearDB를 설치합니다. -> 카드를 등록해야만 사용가능함
    - clearDB를 설치한 이후에 계정에 대한 정보를 얻으려면 아래와 같이 수행
@@ -22,7 +22,7 @@ heroku config --app <App 이름>
   spring.datasource.password=<passwd>
 ~~~
  
-2. Heroku Deploy 설정법
+### Heroku Deploy 설정법
 
    본인의 경우 STS에서 실행하였으므로 다음방법으로 실행하였습니다.
 
@@ -36,7 +36,7 @@ heroku config --app <App 이름>
 
      && 같이 이 문제를 해결해보실 분도 연락주세요 &&
 
-3. Heroku vim 설치 및 사용법
+### Heroku vim 설치 및 사용법
 
    헤로쿠에서 vim을 쓰려고 하면 고질적으로 문제가 발생할 때가 있다.
 
@@ -64,7 +64,7 @@ on ⬢ {앱이름}... up, run.3055 (Free)
 
    nano 사용법 참고: http://www.compulsivecoders.com/tech/how-to-edit-a-file-on-heroku-dynos-using-nano-or-vim/
 
-4. clearDB mysql의 my.cnf 변경하기
+### clearDB mysql의 my.cnf 변경하기
 
    my.cnf가 latin으로 잡혀서 한글 텍스트가 깨지는 경우가 발생한다. ??? 이렇게 나오는 데 일단 database의 config를 확인해보았다.
 
@@ -119,7 +119,8 @@ heroku 결과
 
 이제, utf8mb4로 변경을 해보자!!
 
-5. heroku local time 변경하기
+
+### heroku local time 변경하기
 
 처음에 UTC 로 설정되어있기 때문에 deploy할 때, KST로 변경시켜주어야 한다.
 ~~~
