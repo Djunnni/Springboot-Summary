@@ -1,6 +1,18 @@
 ## Heroku - SpringBoot Deploy 하는 방법
 
-### clearDB 생성하기
+### jawsDB 생성하기 (한글 지원)
+
+   - Resources에서 jawsDB를 설치한다.
+   - heroku config -a {app 이름}으로 jawsDB의 설정을 확인하고 연결한다.
+~~~
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:mysql://{DB 설정} ?reconnect=true&useUnicode=true&characterEncoding=UTF-8
+spring.datasource.username={id}
+spring.datasource.password={password}
+spring.datasource.sql-script-encoding=UTF-8
+~~~
+
+### clearDB 생성하기 (DB에 한글 안쓰고 영어만 쓸경우에 추천)
 
    - heroku에 가입하고 Resources 에서 clearDB를 설치합니다. -> 카드를 등록해야만 사용가능함
    - clearDB를 설치한 이후에 계정에 대한 정보를 얻으려면 아래와 같이 수행
@@ -64,7 +76,7 @@ on ⬢ {앱이름}... up, run.3055 (Free)
 
    nano 사용법 참고: http://www.compulsivecoders.com/tech/how-to-edit-a-file-on-heroku-dynos-using-nano-or-vim/
 
-### clearDB mysql의 my.cnf 변경하기
+### clearDB mysql의 my.cnf 변경하기(실패)
 
    my.cnf가 latin으로 잡혀서 한글 텍스트가 깨지는 경우가 발생한다. ??? 이렇게 나오는 데 일단 database의 config를 확인해보았다.
 
@@ -126,9 +138,9 @@ heroku 결과
 ~~~
 (reconnect=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul&useSSL=false&useUnicode=true&characterEncoding=UTF-8)
 ~~~
-4. spring.datasource.tomcat.connection-properties=useUnicode=true;characterEncoding=utf-8; 추가 => 결과 : 성공 (한글 입출력 정상)
+4. spring.datasource.tomcat.connection-properties=useUnicode=true;characterEncoding=utf-8; 추가 => 결과 : 실패
 
-* 아무래도 connection-properties를 따로 지정해주어야 할 것 같다. 
+* 아무래도 DB의 collation을 latin1 에서 utf8mb4로 바꿀 수 없는 구조이다. 
 * Database 의 타임존은 UTC로 되어있으나 heroku localtime 만 바꾸면 자동으로 잡아줌 
 
 ### heroku local time 변경하기
