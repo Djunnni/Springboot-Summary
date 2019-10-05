@@ -14,7 +14,7 @@ OSX(Mac OS Mojave), Spring Tool suite4, JAVA 8
 - [2019-09-06](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-06.md) : JPA 연관관계 처리
 - [2019-09-07](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-07.md) : Thymeleaf 사용법
 - [2019-09-08](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-08.md) : Spring MVC 를 이용한 게시판 구현연습
-- [2019-09-09](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-09.md) : 제작중 ...  (추석연휴)
+- [2019-10-05](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-05.md) : SpringSecurity4 JDBC Authorize
 
 ### 부록 
 - [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/querydsl.md) : Querydsl 설치법 및 사용법 
