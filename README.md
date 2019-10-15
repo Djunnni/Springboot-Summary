@@ -19,14 +19,14 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [2019-10-05](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-05.md) : SpringSecurity4 JDBC Authorize
 * [2019-10-10](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-10.md) : Maven 에서 Gradle 로 전환하기
 
-  **부록**
+## 부록
 
-* [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/querydsl.md) : Querydsl 설치법 및 사용법 
-* [Mysql\_error\_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
-* [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법\(CSRF\)
-* [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/heroku-deploy.md) : SpringBoot - Heroku deploy
-* [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
-* [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
+* [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/querydsl.md) : Querydsl 설치법 및 사용법 
+* [Mysql\_error\_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
+* [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법\(CSRF\)
+* [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/heroku-deploy.md) : SpringBoot - Heroku deploy
+* [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
+* [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
 * [Docker](./) : Docker - 미정
 
 ## Contact
