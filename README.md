@@ -26,7 +26,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법\(CSRF\)
 * [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/heroku-deploy.md) : SpringBoot - Heroku deploy
 * [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
-* [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
+* [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법 - 제작중
 * [Docker](./) : Docker - 미정
 
 ## Contact
