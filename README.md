@@ -28,7 +28,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/heroku-deploy.md) : SpringBoot - Heroku deploy
 * [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
 * [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
-* [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법 - 제작 예정
+* [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법
 * [Docker](./) : Docker - 미정
 
 ## Template
