@@ -18,7 +18,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [2019-09-08](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-09-08.md) : Spring MVC 를 이용한 게시판 구현연습
 * [2019-10-05](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-05.md) : SpringSecurity4 JDBC Authorize
 * [2019-10-10](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-10.md) : Maven 에서 Gradle 로 전환하기
-* [2019-XX-XX](#) : React + SpringBoot - 제작 예정
+* [2019-10-19](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-19.md) : React + SpringBoot 프로젝트 만들기
 
 ## 부록
 
@@ -28,8 +28,12 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/heroku-deploy.md) : SpringBoot - Heroku deploy
 * [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
 * [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
-* [React Error solution](#) : React 연동과정에서 발생하는 문제 상황과 해결방법 - 제작 예정
+* [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법 - 제작 예정
 * [Docker](./) : Docker - 미정
+
+## Template
+
+프로젝트 템플릿을 저장한 공간입니다. 편하게 활용하세요 : ) 
 
 ## Contact
 
