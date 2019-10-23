@@ -10,7 +10,7 @@
 * [7. Spring Security 4 JDBC 를 이용한 로그인 인증방법](2019-10-05.md)
 * [8. Maven -&gt; Gradle 변경작업](2019-10-10.md)
 * [9. React 구성하기](2019-10-19.md)
-* [Appendix](appendix/README.md)
+* [오류 상황과 대처법](appendix/README.md)
   * [1. Querydsl](appendix/querydsl.md)
   * [2. MYSQL 오류 대처법](appendix/mysql_error_solution.md)
   * [3.Ajax CSRF 대처법](appendix/springsecurity-ajax-csrf-solution.md)
