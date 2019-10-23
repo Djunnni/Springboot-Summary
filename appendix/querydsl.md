@@ -59,7 +59,7 @@ Querydsl은 JPA를 처리하기 위해 Entity class를 생성하는 방식이다
 
 \*\* Querydsl plugin에서 execution 오류 처리법
 
-* 오류내용 
+* 오류내용
 
   ```text
   Execution default of goal com.mysema.maven:apt-maven-plugin:1.1.3:process failed: Plugin com.mysema.maven:apt-maven-plugin:1.1.3 
@@ -71,7 +71,7 @@ Querydsl은 JPA를 처리하기 위해 Entity class를 생성하는 방식이다
 
   \(1번과정은 생략해도 됩니다.\)
 
-* 메이븐 리소스 플러그인  추가
+* 메이븐 리소스 플러그인 추가
 
   ```text
   <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-resources-plugin -->

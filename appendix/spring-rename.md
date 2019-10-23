@@ -1,4 +1,4 @@
-# 5. SpringBoot Project Rename
+# 5. 프로젝트 이름 변경
 
 ## 1. Project 복사하고 붙여넣기
 

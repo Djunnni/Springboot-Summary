@@ -1,4 +1,4 @@
-# 3. Spring Ajax CSRF 대처법
+# 3.Ajax CSRF 대처법
 
 ## Spring Security Ajax 호출시 CSRF 403 Forbidden 에러 솔루션
 
@@ -16,7 +16,7 @@ CSRF : Cross-site Request fogery 의 의미로 A서비스에 로그인하면 브
 
 Ajax 요청 Header에 CSRF 토큰 정보를 포함해서 전송하면 됩니다.
 
-*  내에 csrf meta tag 추가
+* 내에 csrf meta tag 추가
 
   ```text
   <meta id="_csrf" name="_csrf" th:content="${_csrf.token}"/>

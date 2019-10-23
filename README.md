@@ -33,7 +33,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 
 ## Template
 
-프로젝트 템플릿을 저장한 공간입니다. 편하게 활용하세요 : ) 
+프로젝트 템플릿을 저장한 공간입니다. 편하게 활용하세요 : \)
 
 ## Contact
 

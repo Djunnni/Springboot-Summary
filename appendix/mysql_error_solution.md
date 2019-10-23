@@ -1,4 +1,4 @@
-# 2. MYSQL 오류 발생 시에 상황과 대처법
+# 2. MYSQL 오류 대처법
 
 ## 1. mysql Public Key Retrieval is not allowed
 

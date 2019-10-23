@@ -1,4 +1,4 @@
-# 4. Heroku  Deploy
+# 4. Heroku 배포하기
 
 ## jawsDB 생성하기 \(한글 지원\)
 
@@ -145,8 +145,8 @@ heroku 결과
 
 1. 일단 임시방편으로 SET 명령어로 각각을 utf8mb4로 설정했었다. =&gt; 결과 : 실패 \(입력시 ???\)
 2. 프로젝트 내에 utf에 대한 설정을 확인 =&gt; 결과 : 이상없었음
-3. application.properties -&gt; spring.datasource.url 에 DB 뒤에 파라미터 추가 입력 =&gt;  결과 : 실패 \(입력시 ???\)
-   * 입력내용 
+3. application.properties -&gt; spring.datasource.url 에 DB 뒤에 파라미터 추가 입력 =&gt; 결과 : 실패 \(입력시 ???\)
+   * 입력내용
 
      ```text
      (reconnect=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul&useSSL=false&useUnicode=true&characterEncoding=UTF-8)
