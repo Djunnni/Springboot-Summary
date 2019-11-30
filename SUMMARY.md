@@ -11,6 +11,7 @@
 * [8. Maven -&gt; Gradle 변경작업](2019-10-10.md)
 * [9. React 구성하기](2019-10-19.md)
 * [10. SpringSecurity 인증 후 로그인 객체는 어떻게?](2019-11-30.md)
+* [11. SpringBoot에서 Amazon SES 서비스 사용하기](2019-12-01.md)
 * [오류 상황과 대처법](appendix/README.md)
   * [1. Querydsl](appendix/querydsl.md)
   * [2. MYSQL 오류 대처법](appendix/mysql_error_solution.md)
@@ -19,4 +20,5 @@
   * [5. 프로젝트 이름 변경](appendix/spring-rename.md)
   * [6. Gradle 오류 대처법](appendix/gradle_error_solution.md)
   * [7. React 오류 대처법](appendix/react_error_solution.md)
+  * [8. AmazonWebService-SES](#)
 

@@ -20,7 +20,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [2019-10-10](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-10.md) : Maven 에서 Gradle 로 전환하기
 * [2019-10-19](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-19.md) : React + SpringBoot 프로젝트 만들기
 * [2019-11-30](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-11-30.md) : SpringSecurity 인증 후 로그인 객체는 어떻게? 
-* [2019-12-01](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-12-01.md) : SpringBoot에서 Amazon SES 서비스 사용하기 - 제작중
+* [2019-12-01](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-12-01.md) : SpringBoot에서 Amazon SES 서비스 사용하기
 * [](#) : SpringBoot에서 Amazon DynamoDB 사용하기 - 제작중
 * [](#) : SpringBoot에서 Amazon ElasticBeanStalk을 통해 서비스 및 AutoScailing 구현 - 제작중
 ## 부록
@@ -32,7 +32,8 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
 * [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
 * [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법
-* [Docker](./) : Docker - 미정
+* [AmazonWebService-SES](#) : SpringBoot + Thymeleaf + SES 적용
+* [Docker](#) : Docker - 미정
 
 ## Template
 
