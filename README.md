@@ -19,7 +19,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [2019-10-05](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-05.md) : SpringSecurity4 JDBC Authorize
 * [2019-10-10](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-10.md) : Maven 에서 Gradle 로 전환하기
 * [2019-10-19](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-19.md) : React + SpringBoot 프로젝트 만들기
-
+* [2019-11-30](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-11-30.md) : SpringSecurity 인증 후 로그인 객체는 어떻게? 
 ## 부록
 
 * [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/querydsl.md) : Querydsl 설치법 및 사용법 
