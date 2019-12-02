@@ -32,6 +32,8 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
 * [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
 * [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법
+* [thymeleaf LocalDateTime](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/Thymeleaf_LocalDateTime.md) : Thymeleaf에서 LocalDateTime 사용하는 방법
+* [JpaAuditing 사용하기](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/JpaAuditing.md) : JpaAuditing을 통한 시간 동기화
 * [AmazonWebService-SES](#) : SpringBoot + Thymeleaf + SES 적용
 * [Docker](#) : Docker - 미정
 

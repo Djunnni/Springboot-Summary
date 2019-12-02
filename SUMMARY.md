@@ -20,5 +20,7 @@
   * [5. 프로젝트 이름 변경](appendix/spring-rename.md)
   * [6. Gradle 오류 대처법](appendix/gradle_error_solution.md)
   * [7. React 오류 대처법](appendix/react_error_solution.md)
-  * [8. AmazonWebService-SES](#)
+  * [8. Tymeleaf LocalDateTime](appendix/Thymeleaf_LocalDateTime.md)
+  * [9. JpaAuditing을 통한 시간 동기화](appendix/JpaAuditing.md)
+  * [X. AmazonWebService-SES](#)
 
