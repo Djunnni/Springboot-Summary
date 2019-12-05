@@ -25,16 +25,16 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [](#) : SpringBoot에서 Amazon ElasticBeanStalk을 통해 서비스 및 AutoScailing 구현 - 제작중
 ## 부록
 
-* [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/querydsl.md) : Querydsl 설치법 및 사용법 
-* [Mysql\_error\_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
-* [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법\(CSRF\)
-* [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/heroku-deploy.md) : SpringBoot - Heroku deploy
-* [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
-* [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
-* [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법
-* [thymeleaf LocalDateTime](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/Thymeleaf_LocalDateTime.md) : Thymeleaf에서 LocalDateTime 사용하는 방법
-* [JpaAuditing 사용하기](https://github.com/Djunnni/Springboot-Summary/blob/master/Appendix/JpaAuditing.md) : JpaAuditing을 통한 시간 동기화
-* [AmazonWebService-SES](#) : SpringBoot + Thymeleaf + SES 적용
+* [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/querydsl.md) : Querydsl 설치법 및 사용법 
+* [Mysql\_error\_solution](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/mysql_error_solution.md) : MYSQL 오류 발생시에 상황과 대처법
+* [SpringSecurity Ajax CSRF solution](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/SpringSecurity-Ajax-CSRF-solution.md) : SpringSecurity 에서 Ajax 사용시 403 Forbidden 해결하는 방법\(CSRF\)
+* [Heroku Deploy](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/heroku-deploy.md) : SpringBoot - Heroku deploy
+* [Spring rename](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/spring-rename.md) : SpringBoot에서 Package, project name 변경하기
+* [Gradle Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/gradle_error_solution.md) : Eclipse 내부 Gradle 문제 상황과 해결방법
+* [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법
+* [thymeleaf LocalDateTime](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/Thymeleaf_LocalDateTime.md) : Thymeleaf에서 LocalDateTime 사용하는 방법
+* [JpaAuditing 사용하기](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/JpaAuditing.md) : JpaAuditing을 통한 시간 동기화
+* [ElasticBeanStalk 환경설정](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/elasticbeanstalk.md) : SpringBoot 에서 ElasticBeanStalk 환경설정 파일 만들기
 * [Docker](#) : Docker - 미정
 
 ## Template

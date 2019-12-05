@@ -22,5 +22,5 @@
   * [7. React 오류 대처법](appendix/react_error_solution.md)
   * [8. Tymeleaf LocalDateTime](appendix/Thymeleaf_LocalDateTime.md)
   * [9. JpaAuditing을 통한 시간 동기화](appendix/JpaAuditing.md)
-  * [X. AmazonWebService-SES](#)
+  * [10. ElasticBeanStalk 환경설정](appendix/elasticbeanstalk.md)
 

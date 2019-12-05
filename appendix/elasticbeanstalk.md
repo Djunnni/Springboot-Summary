@@ -1,0 +1,50 @@
+# 10. ElasticBeanStalk 환경설정
+
+Springboot에서 작업을 하다가 ElasticBeanStalk 을 쓰려고 하면 환경설정을 해야될 경우가 있다.
+
+특히 시간이 ElasticBeanStalk 에서는 GMT +0 으로 되어있어 한국에서 쓰려고 하면 KST 로 맞추어 주어야 된다.
+
+그러려면 ElasticBeanStalk 에서 말하고 있는 .ebextensions에 대해 설정을 해야된다.
+
+1. 로컬타임 시간 바꾸기
+
+1) pom.xml 하단에 플러그인 추가
+=> src/main/ebextenstions를 war로 압축한 뒤 .ebextemsions로 만들겠다는 의미다.
+~~~
+<plugin>
+    <artifactId>maven-war-plugin</artifactId>
+    <configuration>
+        <webResources>
+            <resource>
+                <directory>src/main/ebextensions</directory>
+                <targetPath>.ebextensions</targetPath>
+                <filtering>true</filtering>
+            </resource>
+        </webResources>
+    </configuration>
+</plugin>
+~~~
+
+2) 1번을 마치면 war 압축을 풀어보면 아래와 같다.
+~~~
+.WEB-INF/
+.META-INF/
+.ebextensions/
+    - 01-timezone.config => 이 파일을 만들것이다.
+~~~
+
+3) 01-timezone.config
+=>인터넷에 예시도 많지만 따라해본 결과 모두 Command rm not 이라는 'rm' 명령어가 없다고 에러가 발생했다.
+따라서 본인이 실행해본 결과 이것이 제일 정확하다.
+~~~
+commands:
+  01link_seoul_zone:
+    command: "ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime"
+~~~
+
+2. 로컬타임 시간바꾸기 ( aws에서 명령어로 바꾸기 )
+
+ElasticBeanstalk configuration > Software Configuration  > Container Options 
+JVM command line options에 아래를 추가 하면 된다.
+-Duser.timezone=Asia/Seoul
+
