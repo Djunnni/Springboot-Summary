@@ -21,8 +21,10 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [2019-10-19](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-10-19.md) : React + SpringBoot 프로젝트 만들기
 * [2019-11-30](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-11-30.md) : SpringSecurity 인증 후 로그인 객체는 어떻게? 
 * [2019-12-01](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-12-01.md) : SpringBoot에서 Amazon SES 서비스 사용하기
+* [2019-12-05](https://github.com/Djunnni/Springboot-Summary/blob/master/2019-12-05.md) : SpringBoot에서 ElasticBeanStalk ebextensions 파일 만들기
 * [](#) : SpringBoot에서 Amazon DynamoDB 사용하기 - 제작중
 * [](#) : SpringBoot에서 Amazon ElasticBeanStalk을 통해 서비스 및 AutoScailing 구현 - 제작중
+
 ## 부록
 
 * [Querydsl](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/querydsl.md) : Querydsl 설치법 및 사용법 
@@ -34,7 +36,7 @@ OSX\(Mac OS Mojave\), Spring Tool suite4, JAVA 8
 * [React Error solution](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/react_error_solution.md) : React 연동과정에서 발생하는 문제 상황과 해결방법
 * [thymeleaf LocalDateTime](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/Thymeleaf_LocalDateTime.md) : Thymeleaf에서 LocalDateTime 사용하는 방법
 * [JpaAuditing 사용하기](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/JpaAuditing.md) : JpaAuditing을 통한 시간 동기화
-* [ElasticBeanStalk 환경설정](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/elasticbeanstalk.md) : SpringBoot 에서 ElasticBeanStalk 환경설정 파일 만들기
+* [AWS RDS timezone과 charset 변경](https://github.com/Djunnni/Springboot-Summary/blob/master/appendix/rds_kst_time.md) : AWS RDS timezone과 charset 변경
 * [Docker](#) : Docker - 미정
 
 ## Template

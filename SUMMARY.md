@@ -12,6 +12,7 @@
 * [9. React 구성하기](2019-10-19.md)
 * [10. SpringSecurity 인증 후 로그인 객체는 어떻게?](2019-11-30.md)
 * [11. SpringBoot에서 Amazon SES 서비스 사용하기](2019-12-01.md)
+* [12. SpringBoot에서 ElasticBeanStalk ebextensions 파일 만들기](2019-12-05.md)
 * [오류 상황과 대처법](appendix/README.md)
   * [1. Querydsl](appendix/querydsl.md)
   * [2. MYSQL 오류 대처법](appendix/mysql_error_solution.md)
@@ -22,5 +23,5 @@
   * [7. React 오류 대처법](appendix/react_error_solution.md)
   * [8. Tymeleaf LocalDateTime](appendix/Thymeleaf_LocalDateTime.md)
   * [9. JpaAuditing을 통한 시간 동기화](appendix/JpaAuditing.md)
-  * [10. ElasticBeanStalk 환경설정](appendix/elasticbeanstalk.md)
+  * [10. AWS RDS timezone과 charset 변경](appendix/rds_kst_time.md)
 
