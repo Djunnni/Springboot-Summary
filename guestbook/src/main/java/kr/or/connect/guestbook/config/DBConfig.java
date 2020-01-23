@@ -20,7 +20,7 @@ public class DBConfig implements TransactionManagementConfigurer {
 
 	private String username = "root";
 
-	private String password = "dlehdwns";
+	private String password = "root";
 
 	@Bean
 	public DataSource dataSource() {
